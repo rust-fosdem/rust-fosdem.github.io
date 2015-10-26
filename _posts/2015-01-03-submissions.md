@@ -8,8 +8,8 @@ icon-title: true
 ---
 
 We invite authors to submit original, high-quality work with
-sufficient background material to be clear to the HPC
-community. Papers should be submitted in PDF format and should not
+sufficient background material to be clear to the HPC, Big Data, and/or Data
+Science communities. Papers should be submitted in PDF format and should not
 exceed 10 pages including tables, figures and appendices, but
 excluding references. They should be formatted according to the
 [ACM SIG Proceedings format](http://www.acm.org/sigs/publications/proceedings-templates).
@@ -23,13 +23,10 @@ they need to refer to themselves in the third person, as if they were discussing
 another researcher's work. Furthermore, authors must identify any conflict of
 interest with the PC chair or PC members.
 
-Proceedings will be published in both IEEE Xplore and the ACM Digital library
-through collaboration with ACM SIGHPC.
-
 <div style="text-align:center;">
   <p>
     <span style="font-size:20px;">
-      <a href="https://easychair.org/conferences/?conf=hust15">
+      <a href="https://penta.fosdem.org">
         <i class="fa fa-sign-in">&nbsp;<b>Click here to submit.</b></i>
       </a>
     </span>
