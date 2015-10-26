@@ -1,4 +1,4 @@
-HUST15 Web Site Source
+FOSDEM'16 HPC and Big Data Devroom Web Site Source
 ============================================
 
 This is the source code for the FOSDEM'16 HPC and Big Data Devroom web site, which uses

@@ -15,10 +15,10 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "HUST15: Second Workshop on HPC User Support Tools"
-keywords:    "hpc, user, support, tools, build, sc15, hust15, hust, supercomputing"
-description: "Second Workshop on HPC User Support Tools"
-source_link: "https://github.com/hust15/hust15.github.io"
+title:       "FOSDEM'16 HPC, Big Data, and Data Science Devroom"
+keywords:    "hpc, big data, data science"
+description: "FOSDEM'16 HPC, Big Data, and Data Science Devroom"
+source_link: "https://github.com/hpcugent/fosdem2016_hpc_bigdata_devroom"
 #favicon:     "img/favicon.ico"
 #touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: UA-55665759-3
