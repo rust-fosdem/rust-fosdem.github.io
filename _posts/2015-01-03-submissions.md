@@ -8,8 +8,8 @@ icon-title: true
 ---
 
 We invite authors to submit original, high-quality work with
-sufficient background material to be clear to the HPC, Big Data, and/or Data
-Science communities. Papers should be submitted in PDF format and should not
+sufficient background material to be clear to the Rust community.
+Papers should be submitted in PDF format and should not
 exceed 10 pages including tables, figures and appendices, but
 excluding references. They should be formatted according to the
 [ACM SIG Proceedings format](http://www.acm.org/sigs/publications/proceedings-templates).

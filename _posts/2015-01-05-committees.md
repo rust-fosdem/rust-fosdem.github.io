@@ -10,9 +10,8 @@ icon-title: true
 ## Organizing Committee
 
 * [Ewan Higgs]()
-* [Kenneth Hoste]()
-* [Roman Shaposhnik]()
-* [Vasia Kalavri]()
+* [Luca Bruno]()
+* [Andy Georges]()
 
 For the CoC we recommend using the [Apache Code of Conduct](
 http://www.apache.org/foundation/policies/conduct.html)
