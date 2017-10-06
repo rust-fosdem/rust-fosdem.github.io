@@ -31,6 +31,7 @@ colors:
   green:     '#377f1c'
   purple:    '#be2a52'
   turquoise: '#2a9cbe'
+  rust:      '#9a7d2e'
 
 # Dull pastels
   # black:     '#111111'
