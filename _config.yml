@@ -7,7 +7,6 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
@@ -19,9 +18,7 @@ title:       "FOSDEM'18 Rust Devroom"
 keywords:    "rust, programming language"
 description: "FOSDEM'18 Rust Devroom"
 source_link: "https://github.com/rust-devroom/rust-devroom.github.io"
-#favicon:     "img/favicon.ico"
-#touch_icon:  "img/apple-touch-icon.png"
-#google_analytics_key: UA-55665759-3
+favicon:     "img/favicon.ico"
 
 
 ### template colors, used site-wide via css ###
@@ -33,7 +30,7 @@ colors:
   red:       '#be4c2a'
   green:     '#377f1c'
   purple:    '#be2a52'
-  turquoise: '#2a9cbe
+  turquoise: '#2a9cbe'
 
 # Dull pastels
   # black:     '#111111'
