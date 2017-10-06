@@ -14,4 +14,4 @@ encoding: utf-8
 * [Ewan Higgs](https://github.com/ehiggs) - [Western Digital](http://www.wdc.com)
 * [Luca Bruno](https://github.com/lucab) - [CoreOS](http://coreos.com/) 
 
-Please, take a moment to read the [FOSDEM Code of Conduct](https://fosdem.org/2017/practical/conduct/).
+Please, take a moment to read the [FOSDEM Code of Conduct](https://fosdem.org/2018/practical/conduct/).
