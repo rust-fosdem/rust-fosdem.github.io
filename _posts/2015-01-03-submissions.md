@@ -1,7 +1,7 @@
 ---
 title: "Submission"
 bg: yellow
-color: rust
+color: black
 style: left
 fa-icon: file-text-o
 icon-title: true
