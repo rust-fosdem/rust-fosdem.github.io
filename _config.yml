@@ -26,14 +26,14 @@ favicon:     "img/favicon.ico"
 colors:
   black:     '#111111'
   white:     '#ffffff'
-  blue:      '#23B4EA'
-  yellow:    '#F4E42B'
+  blue:      '#149AEA'
+  yellow:    '#F4DA2B'
   orange:    '#cebe05'
   red:       '#be4c2a'
-  green:     '#2D955C'
-  purple:    '#B32BF4'
+  green:     '#29EA56'
+  purple:    '#B92BF4'
   turquoise: '#2a9cbe'
-  rust:      '#DD6632'
+  rust:      '#DD6132'
 
   #rust:      '#9a7d2e'
 
