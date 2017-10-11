@@ -1,6 +1,6 @@
 ---
 title: "Submission"
-bg: orange
+bg: yellow
 color: white
 style: left
 fa-icon: file-text-o
