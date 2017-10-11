@@ -25,13 +25,16 @@ favicon:     "img/favicon.ico"
 colors:
   black:     '#111111'
   white:     '#ffffff'
-  blue:      '#2a52be'
+  blue:      '#0090C4'
+  #blue:      '#2a52be'
   orange:    '#a98625'
   red:       '#be4c2a'
-  green:     '#377f1c'
+  green:     '#116F3B'
+  #green:     '#377f1c'
   purple:    '#be2a52'
   turquoise: '#2a9cbe'
   rust:      '#b7410e'
+
   #rust:      '#9a7d2e'
 
 # Dull pastels
