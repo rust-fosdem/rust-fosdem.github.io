@@ -8,7 +8,7 @@ icon-title: true
 encoding: utf-8
 ---
 
-## Organizers
+## Devroom Organizers
 
 * [Andy Georges](https://github.com/iktovian) - [HPC team at Ghent University](http://www.ugent.be/hpc/en)
 * [Ewan Higgs](https://github.com/ehiggs) - [Western Digital](http://www.wdc.com)

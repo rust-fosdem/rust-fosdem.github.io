@@ -14,7 +14,7 @@ sufficient background material to be clear to the Rust community.
   <p>
     <span style="font-size:20px;">
       <a href="https://penta.fosdem.org/submission/FOSDEM18">
-        <i class="fa fa-sign-in">&nbsp;<b>Click here to submit.</b></i>
+        <i class="fa fa-sign-in">&nbsp;<strong>Click here to submit.</strong></i>
       </a>
     </span>
   </p>
