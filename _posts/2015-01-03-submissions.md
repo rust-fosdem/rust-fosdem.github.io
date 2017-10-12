@@ -10,6 +10,10 @@ icon-title: true
 We invite authors to submit original, high-quality work with
 sufficient background material to be clear to the Rust community.
 
+Please be aware of the fact that Devroom talks at FOSDEM will be recorded. By submitting
+a proposal you agree to being recorded and to have your talk made available.
+
+
 <div style="text-align:center;">
   <p>
     <span style="font-size:20px;">
