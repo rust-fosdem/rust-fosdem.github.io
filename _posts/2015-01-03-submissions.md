@@ -27,4 +27,5 @@ a proposal you agree to being recorded and to have your talk made available.
 <strong>When submitting your talk in Pentabarf, make sure to select the 'Rust Devroom' as the 'Track'.</strong>
 
 <em>If you already have a Pentabarf account from a previous FOSDEM edition, please reuse it</em>.
-Create an account if, and only if, you don't have one from a previous year.
+Create an account if, and only if, you don't have one from a previous year. If
+-you have any issues with Pentabarf, do not despair: contact rust [dash] devroom [at] lists.fosdem.org
