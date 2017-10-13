@@ -37,4 +37,4 @@ Submissions must include:
 
 <em>If you already have a Pentabarf account from a previous FOSDEM edition, please reuse it</em>.
 Create an account if, and only if, you don't have one from a previous year. If
--you have any issues with Pentabarf, do not despair: contact rust [dash] devroom [at] lists.fosdem.org
+you have any issues with Pentabarf, do not despair: contact rust [dash] devroom [at] lists.fosdem.org
