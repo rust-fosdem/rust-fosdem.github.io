@@ -13,6 +13,15 @@ sufficient background material to be clear to the Rust community.
 Please be aware of the fact that Devroom talks at FOSDEM will be recorded. By submitting
 a proposal you agree to being recorded and to have your talk made available.
 
+Submissions must include:
+
+- Abstract
+- Session type
+- Session length
+- Expected prior knowledge / intended audience
+- Speaker bio
+- Links to code / slides / material for the talk (optional)
+- Links to previous talks by the speaker
 
 <div style="text-align:center;">
   <p>
