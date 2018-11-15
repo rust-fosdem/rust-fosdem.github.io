@@ -1,7 +1,7 @@
-FOSDEM'18 Rust Devroom Web Site Source
+FOSDEM Rust Devroom Web Site Source
 ============================================
 
-This is the source code for the FOSDEM'16 Rust Devroom web site, which uses
+This is the source code for the FOSDEM Rust Devroom web site, which uses
 [Jekyll](http://jekyllrb.com) and
 [GitHub pages](https://pages.github.com).
 
