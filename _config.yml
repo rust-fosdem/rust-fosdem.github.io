@@ -14,9 +14,9 @@ highlighter: rouge
 
 
 ### content configuration ###
-title:       "FOSDEM'18 Rust Devroom"
+title:       "FOSDEM'19 Rust Devroom"
 keywords:    "rust, programming language"
-description: "FOSDEM'18 Rust Devroom"
+description: "FOSDEM'19 Rust Devroom"
 source_link: "https://github.com/rust-devroom/rust-devroom.github.io"
 favicon:     "img/favicon.ico"
 
