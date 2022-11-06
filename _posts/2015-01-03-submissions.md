@@ -26,7 +26,7 @@ Submissions must include:
 <div style="text-align:center;">
   <p>
     <span style="font-size:20px;">
-      <a href="https://penta.fosdem.org/submission/FOSDEM19">
+      <a href="https://penta.fosdem.org/submission/FOSDEM23">
         <i class="fa fa-sign-in">&nbsp;<strong>Click here to submit.</strong></i>
       </a>
     </span>
