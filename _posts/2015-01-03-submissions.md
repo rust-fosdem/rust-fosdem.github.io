@@ -15,26 +15,24 @@ a proposal you agree to being recorded and to have your talk made available.
 
 Submissions must include:
 
-- Abstract
-- Session type
-- Session length
-- Expected prior knowledge / intended audience
-- Speaker bio
-- Links to code / slides / material for the talk (optional)
-- Links to previous talks by the speaker
+- The title of your talk
+- A short abstract of one paragraph
+- A longer description (optional)
+- In the submission notes:
+  - The talk duration
+  - Expected prior knowledge / intended audience
+  - Links to code / slides / material for the talk (optional)
+- Speaker bio including
+  - Links to previous talks by the speaker (optional)
 
 <div style="text-align:center;">
   <p>
     <span style="font-size:20px;">
-      <a href="https://penta.fosdem.org/submission/FOSDEM23">
+      <a href="https://pretalx.fosdem.org/fosdem-2024/cfp">
         <i class="fa fa-sign-in">&nbsp;<strong>Click here to submit.</strong></i>
       </a>
     </span>
   </p>
 </div>
 
-<strong>When submitting your talk in Pentabarf, make sure to select the 'Rust Devroom' as the 'Track'.</strong>
-
-<em>If you already have a Pentabarf account from a previous FOSDEM edition, please reuse it</em>.
-Create an account if, and only if, you don't have one from a previous year. If
-you have any issues with Pentabarf, do not despair: contact rust [dash] devroom [at] lists.fosdem.org
+<strong>When submitting your talk in pretalx, make sure to select the 'Rust' as the 'Track'.</strong>
