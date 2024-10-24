@@ -28,7 +28,7 @@ Submissions must include:
 <div style="text-align:center;">
   <p>
     <span style="font-size:20px;">
-      <a href="https://pretalx.fosdem.org/fosdem-2024/cfp">
+      <a href="https://pretalx.fosdem.org/fosdem-2025/cfp">
         <i class="fa fa-sign-in">&nbsp;<strong>Click here to submit.</strong></i>
       </a>
     </span>

@@ -2,17 +2,19 @@ This contains a list of relevant contact points for the Rust devroom.
 
 ## Devroom contacts
 
-Initial organizers with access to FOSDEM penta:
+Organizers with access to FOSDEM pretalx:
 
 * Ewan Higgs (GH: ehiggs)
 * Luca Bruno (GH: lucab, IRC: kaeso)
-* Andy Georges (GH: itkovian)
 
-## Devroom volunteers
+## Previous organizers
+
+* Andy Georges (GH: itkovian)
+* Martin Junghanns (GH: s1ck)
+* Paul Horn (GH: knutwalker)
+
+## Thanks / Volunteers
 
 * Jan-Erik Rediger (GH: badboy)
 * Matthias Endler (GH: mre)
-
-Additional people helping with devroom organization:
-
 * Nicolas Silva (GH: nical, IRC: nical)
