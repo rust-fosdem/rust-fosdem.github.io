@@ -13,4 +13,4 @@ encoding: utf-8
 * [Ewan Higgs](https://github.com/ehiggs)
 * [Luca Bruno](https://github.com/lucab)
 
-Please, take a moment to read the [FOSDEM Code of Conduct](https://fosdem.org/2024/practical/conduct/).
+Please, take a moment to read the [FOSDEM Code of Conduct](https://fosdem.org/2026/practical/conduct/).
