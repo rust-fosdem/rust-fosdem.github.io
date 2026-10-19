@@ -1,0 +1,34 @@
+/* Latin subsets from Google Fonts, served locally with no external font requests.
+ * SIL Open Font License notices are included in fonts/*-OFL.txt.
+ */
+@font-face {
+  font-family: "Alfa Slab One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/AlfaSlabOne-Regular.latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/FiraSans-Regular.latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/FiraSans-SemiBold.latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/FiraSans-Bold.latin.woff2") format("woff2");
+}
