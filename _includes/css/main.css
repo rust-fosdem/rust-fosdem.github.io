@@ -22,7 +22,7 @@ html { box-sizing: border-box; }
   nav .p-{{id}} { border-color: {{ bg }}; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
   #{{id}} a { color: {{ fg }}; }
-  #{{id}} .sectiondivider { color: {{ bg }}; }
+  #{{id}} .sectiondivider { color: {{ fg }}; }
 {% endfor %}
 
 
@@ -64,23 +64,28 @@ hr {
   border-color: {{ site.colors.black }};
 }
 
-.container { word-wrap: break-word; }
+.container { max-width: 800px; padding: 0 24px; word-wrap: break-word; }
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
 
 .container h1, .container h2, .container h3, .container h4 {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  line-height: 1.25;
+}
+.container h1 {
+  font-family: "Alfa Slab One", Georgia, serif;
+  font-weight: 400;
   text-align: center;
-  padding: 0 4%;
 }
-.container p, .container ol, .container ul {
-  font-size: 17px;
-  padding: 0 5%;
-}
-.container ol, .container ul { padding: 0 8%; }
-.container p:first-of-type {
-    margin-top: 40px;
-}
+.container h2 { font-size: 32px; }
+.container h3 { font-size: 24px; }
+.container p, .container ol, .container ul { font-size: 18px; }
+.container ol, .container ul { padding-left: 1.4em; }
+.container li > ul, .container li > ol { margin: 8px 0 16px; }
+.container > :last-child { margin-bottom: 0; }
+#intro h3 { text-align: center; }
+#intro h3:first-of-type { margin-top: 32px; }
+#intro h3:last-of-type { margin-top: 48px; text-align: left; }
 
 /* keep embedded videos fluid! */
 .icontain {
@@ -121,7 +126,7 @@ nav {
   z-index:100;
   top:0;
   left:0;
-  background:#2e2e2e;
+  background:{{ site.colors.black }};
 }
 
 nav ul {
@@ -151,11 +156,11 @@ nav ul li a, nav ul li a:visited {
   color:#fff;
   text-decoration:none;
   font-weight:600;
-  opacity:.75;
+  opacity:1;
 }
 
-nav ul li a:hover {
-  opacity:1
+nav ul li a:hover, nav ul li.active a {
+  text-decoration: underline;
 }
 nav ul li:hover, nav ul li.active {
   border-top-width: {{navborder_active}}px;
@@ -169,75 +174,42 @@ nav ul li:hover, nav ul li.active {
   position:relative;
   display:block;
   width:100%;
-  min-height:300px;
-  padding:210px 0;
-  background:url(img/bgnoise.png);
-  /* generated noise from noisetexturegenerator.com */
+  padding:72px 0;
+  scroll-margin-top:90px;
 }
 
 .section:first-of-type {
-    padding-top: 140px;
+    padding-top: 132px;
 }
 
 
 #footer {
-  padding: 8px 0;
+  padding: 28px 0;
   min-height:0;
   text-align:center;
-  background-color:#2e2e2e;
+  background-color:{{ site.colors.black }};
   background-image:none;
 }
 #footer .container p { font-size:13px; margin:0; }
 
-.subtlecircle {
-  text-align:center;
-  z-index:3;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-  box-shadow: 0px 1px 15px rgba(0,0,0,0.05);
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIHWP8//+/MQMaYELjg7kUCgIASm8DOqGzfp8AAAAASUVORK5CYII=);
-}
-
 .sectiondivider {
-  width:200px;
-  height:200px;
-  padding:11px;
-  position:absolute;
-  top:-100px;
-  left:50%;
-  margin-left:-100px;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  width:100%;
+  max-width:800px;
+  margin:0 auto 32px;
+  padding:0 24px;
 }
 
-.sectiondivider img {
-  width:200px;
-  height:170px;
-  position: static;
-  margin-top: -20px;
-}
-
-.sectiondivider .fa-stack {
-  font-size: 96px;
-  position: static;
-  margin-top: -8px;
-}
-.sectiondivider .fa-circle { color: #fff; }
-
+.sectiondivider img { width:48px; height:auto; }
+.sectiondivider .fa-stack { font-size:20px; flex-shrink:0; }
+.sectiondivider .fa-circle { display:none; }
 .sectiondivider h5 {
-  font-size:15px;
-  font-weight:700;
-  text-transform:uppercase;
-  position:absolute;
-  bottom:30px;
-  left:auto;
-  text-align:center;
-  display:block;
-  z-index:6;
-  width:175px;
-}
-
-.sectiondivider.imaged {
-  text-shadow: 1px 1px 3px #333;
+  font-family:"Alfa Slab One", Georgia, serif;
+  font-size:32px;
+  font-weight:400;
+  line-height:1.25;
 }
 
 
@@ -305,18 +277,15 @@ nav ul li:hover, nav ul li.active {
 
 
 
-/* mid size (tablets, landscapes) */
+/* Keep all five navigation links visible without wrapping on phones. */
 @media only screen and (max-width: 679px) {
   nav { font-size:11px; }
+  nav ul { display:flex; }
   nav ul li {
-    min-width:60px;
-    line-height:40px;
+    flex:1;
+    min-width:0;
+    line-height:44px;
   }
-}
-
-/* tiny size (phones) */
-@media only screen and (max-width: 380px) {
-  nav ul li { min-width:90px; line-height:20px; }
 }
 
 /* anything not desktop */
@@ -327,27 +296,11 @@ nav ul li:hover, nav ul li.active {
 	.container h4 { font-size: 18px; }
 
 
-  .section { padding:130px 0; }
-  .sectiondivider {
-    width:200px;
-    height:200px;
-    padding:15px;
-    top:-100px;
-    margin-left:-100px;
-  }
-  .sectiondivider img {
-    width:150px;
-    height:180px;
-  }
-  .sectiondivider .fa-stack {
-    font-size: 100px;
-    margin-top: -14px;
-  }
-  .sectiondivider h5 {
-    font-size:15px;
-    bottom:30px;
-    width:170px
-  }
+  .container, .sectiondivider { width:100%; padding-left:24px; padding-right:24px; }
+  .section { padding:48px 0; }
+  .section:first-of-type { padding-top:100px; }
+  .sectiondivider { margin-bottom:24px; }
+  .sectiondivider h5 { font-size:26px; }
 
   .columned {
     -webkit-column-count: 2;
