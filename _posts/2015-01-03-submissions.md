@@ -10,8 +10,8 @@ icon-title: true
 We invite authors to submit original, high-quality work with
 sufficient background material to be clear to the Rust community.
 
-Please be aware of the fact that Devroom talks at FOSDEM will be recorded. By submitting
-a proposal you agree to being recorded and to have your talk made available.
+Please be aware of the fact that all talks will be recorded.
+By submitting a proposal you agree to being recorded and to have your talk made available online.
 
 Submissions must include:
 
@@ -28,7 +28,7 @@ Submissions must include:
 <div style="text-align:center;">
   <p>
     <span style="font-size:20px;">
-      <a href="https://pretalx.fosdem.org/fosdem-2026/cfp">
+      <a href="https://pretalx.fosdem.org/fosdem-2027/cfp">
         <i class="fa fa-sign-in">&nbsp;<strong>Click here to submit.</strong></i>
       </a>
     </span>
