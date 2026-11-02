@@ -12,5 +12,7 @@ encoding: utf-8
 
 * [Ewan Higgs](https://github.com/ehiggs)
 * [Luca Bruno](https://github.com/lucab)
+* [Martin Junghanns](https://github.com/s1ck)
+* [Paul Horn](https://github.com/knutwalker)
 
 Please, take a moment to read the [FOSDEM Code of Conduct](https://fosdem.org/2027/practical/conduct/).
